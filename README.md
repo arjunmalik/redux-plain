@@ -17,3 +17,5 @@ Use the Application
 1. npm install
 2. npm run start:dev (by default application will be served on http://localhost:9000/)
 3. To use the store, open console in your browser.
+
+For more detail about redux see - https://github.com/arjunmalik/redux-app-advanced
