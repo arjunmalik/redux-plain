@@ -1,13 +1,19 @@
 # Plain Redux
 
 A redux app with basic functionalities of redux.
+
 createPolicy, deletePolicy, createClaim are the action creators in index.js file.
+
 claimsHistory, accounting, policies are the reducers in index.js file
+
 store is the redux-store which stores all the reducers and state.
 
 To dispatch any action either create an action via action creators
+
 const action = createPolicy('Alex', 20);
+
 and then dispatch the action manually 
+
 store.dispatch(action);
 
 Or directly dispatch the action like - store.dispatch(createPolicy('Jim', 30));
