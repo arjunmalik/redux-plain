@@ -65,6 +65,8 @@ const ourDepartments = combineReducers({
 });
 
 const store = createStore(ourDepartments);
+console.log("Store -> ")
+console.log(store);
 const action = createPolicy('Alex', 20);
 
 store.dispatch(action);
@@ -72,7 +74,7 @@ store.dispatch(createPolicy('Jim', 30));
 store.dispatch(createPolicy('Bob', 40));
 store.dispatch(createClaim('Alex', 120));
 store.dispatch(createClaim('Jim', 50));
-
+console.log("State of the store");
 console.log(store.getState());
 
 ReactDOM.render(
